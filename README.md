@@ -49,7 +49,7 @@ This tool:
 
 file-integrity-checker/  
 │  
-├── fic.py                  # Main CLI script  
+├── checker.py                  # Main CLI script  
 ├── baseline.txt            # Auto-generated baseline (ignored in git)  
 ├── target_files/           # Monitored directory (example)  
 ├── README.md               # Documentation  
@@ -68,7 +68,7 @@ __pycache__/
 
 Run:
 
-python fic.py
+python checker.py
 
 Select:
 
@@ -85,7 +85,7 @@ This will:
 
 Run again:
 
-python fic.py
+python checker.py
 
 Select:
 
